@@ -131,8 +131,8 @@ except Exception:
 
 def setup_model():
     """called once at startup to do various one-time tasks related to SD models"""
-    os.makedirs(model_path, exist_ok=True))
-    
+
+    os.makedirs(model_path, exist_ok=True)
 
     enable_midas_autodownload()
     patch_given_betas()
